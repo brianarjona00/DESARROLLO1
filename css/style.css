@@ -170,3 +170,64 @@ margin: 30px ;
     display: inline-block;
     margin-top: 30px;
 }
+
+#clase-mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .menu {
+        padding-top: 10px;
+    }
+    header ul {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    nav {
+        background: #000;
+        width: 100%;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+    }
+    nav ul li {
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    .contenedor-tarjetas, #galeria {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+    #segunda-tarjeta {
+        margin: 0;
+    }
+    #ultima-tarjeta {
+        margin-top: 1px;
+    } 
+table {
+    display: none;
+}
+
+    #clase-mobile {
+display:block;
+text-align: center;
+    }
+
+
+#galeria .foto {
+    width: 100%;
+}
+#contact h2 {
+    font-size: 38px;
+}
+.info {
+    flex-direction: column;
+}
+
+}
