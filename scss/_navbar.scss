@@ -1,0 +1,47 @@
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: url(../img/background.1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul {
+display: flex;
+}
+header ul li {
+    margin: 0 20px;
+}
+header ul li a {
+    color:  #fff;
+}
+.titular {
+    text-align: center;
+    margin-top: 40vh;
+    color: #fff;
+}
+h1 {
+    font-size: 80px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+}
+.titular a {
+    background: #000;
+    color: #c2e71f;
+    padding: 20px 40px;
+
+}
