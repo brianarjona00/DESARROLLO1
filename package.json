@@ -6,7 +6,21 @@
   "scripts": {
     "compile": "sass --watch scss:css"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "gym",
+    "salta",
+    "informacion",
+    "trainers"
+  ],
+  "author": "Brian Arjona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianarjona00/PreEntega3Arjona"
+  },
+  "homepage": "https://brianarjona00.github.io/PreEntega3Arjona/",
+  "dependencies": {
+    "bootstrap": "5.2.3",
+    "sass": "1.58.1"
+  }
+
 }
