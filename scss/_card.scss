@@ -104,3 +104,59 @@ h2 {
 .info p {
 margin: 30px ;
 }
+/* parte de funciones */
+section {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  article {
+    display: flex;
+    flex: 0 1 500px;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 3rem;
+  }
+  
+  article img {
+    order: -1;
+    align-self: center;
+    border-radius: 1rem;
+  }
+  
+  article button {
+    background: white;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  article h2 {
+    color: #6b3aba;
+  }
+  
+  article p {
+    color: black;
+  }
+  
+  iframe {
+    position: right;
+    
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b3aba;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  p {
+    display: flex;
+  }

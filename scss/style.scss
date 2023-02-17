@@ -5,7 +5,7 @@
 
 @media (max-width: 800px) {
     .menu {
-        padding-top: 10px;
+        padding-top: 30px;
     }
     header ul {
         flex-direction: column;
@@ -57,5 +57,7 @@ text-align: center;
 .info {
     flex-direction: column;
 }
-
+p{
+    font-size: 20px;
+}
 }
