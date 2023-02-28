@@ -1,76 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- Mi css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Font -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Meta -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+     <!-- Responsive -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+     <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+     
      <!--Font awesome-->
      <link
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
      crossorigin="anonymous"
-     referrerpolicy="no-referrer"
-   />
-    <!--Icono Favorito-->
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
-    <!--seo -->
-
-    <meta name="description" content="Tu gimnasio online con rutinas de ejercicios en casa, planes de entrenamiento y dietas. INICIA TU CAMBIO virtual con nuestro gimnasio en casa.">
-    <meta name="keywords" content="HTML, CSS, BOOTSTRAP, META, EJEMPLO">
-    <title>GYM-ABAR</title>
-</head>
-<body>
-    <header>
-        <div class="contenedor">
-<div class="menu">
-    <img src="img/logoipsum-282 (2).svg" alt="logo-navbar">
-    <nav>
-        <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="pages/nosotros.html">NOSOTROS</a></li>
-            <li><a href="pages/funciones.html">FUNCIONES</a></li>
-            <li><a href="pages/login.html">LOGIN</a></li>
-            <li><a href="pages/contacto.html">CONTACTO</a></li>
-        </ul> 
-    </nav>
-</div>
-        </div>
-        <div class="titular">
+     referrerpolicy="no-referrer"/>
+     
+     <!--Icono Favorito-->
+     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+     
+     <!-- BootStrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     
+     <!-- Mi css -->
+     <link rel="stylesheet" href="css/style.css">
+     
+     <!--Seo -->
+     <meta name="description" content="Tu gimnasio online con rutinas de ejercicios en casa, planes de entrenamiento y dietas. INICIA TU CAMBIO virtual con nuestro gimnasio en casa.">
+     <meta name="keywords" content="HTML, CSS, BOOTSTRAP, META, EJEMPLO">
+     
+     <title>GYM-ABAR</title>
+     
+     </head>
+     <body>
+     <!-- NAV-BAR -->
+        <header>
+             <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img src="../img/logoipsum-282 (2).svg" alt="">GYM-ABAR
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                  <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="pages/funciones.html">Funciones</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="pages/login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                 </li>
+                 </ul>
+                 </div>
+                 </div>
+             </nav>
+     <!-- TITULO DEL BACKGROUND -->
+         <div class="titular">
             <h1> MÁQUINA TUS ENTRENAMIENTOS CON NOSOTROS.</h1>
-            <a href="pages/funciones.html">ÚNETE A NUESTRO GIMNASIO</a>
-        </div>
-    </header>
-    <section id="tarjetas">
-        <div class="contenedor">
+         </div>
+         </header>
+     <!-- CARDS -->
+         <section id="tarjetas">
+         <div class="contenedor">
             <div class="contenedor-tarjetas">
                 <div class="tarjeta">
-                    <img class="img-tarjeta" src="img/crdio.png.png" alt="img-cardio"><h3>CARDIO</h3>
+                    <h2>CARDIO</h2>
+                    <img class="img-tarjeta" src="img/crdio.png.png" alt="Cardio mas definicion">
                     <p> El objetivo principal del cardio es que nuestro corazón se fortalezca y la salud de nuestros pulmones sea buena. Por otro lado, también es un ejercicio que nos ayuda a quemar calorías, reducir riesgo de padecer algunas enfermedades cardiacas y hasta diabetes.</p>
                     <a href="#">LEER MAS</a>
                 </div>
                 <div id="segunda-tarjeta" 
                 class="tarjeta">
-                    <img class="img-tarjeta" src="img/pesas.png.png" alt="img-pesas"><h3>PESAS</h3>
-                    <p> Trabaja todos los músculos principales, incluyendo el abdomen, las caderas, las piernas, el pecho, la espalda, los hombros y los brazos. Fortalece los músculos opuestos de forma equilibrada, por ejemplo, la parte delantera y trasera de los brazos. Incluye el fortalecimiento muscular en tu rutina de ejercicios.</p>
+                <h2>PESAS</h2>
+                    <img class="img-tarjeta" src="img/pesas.png.png" alt="Pesas mas definicion">
+                    <p> Trabaja todos los músculos principales, incluyendo el abdomen, las caderas, las piernas, el pecho, la espalda, los hombros y los brazos. Fortalece los músculos opuestos de forma equilibrada.</p>
                     <a href="#">LEER MAS</a>
                 </div>
                 <div id="ultima-tarjeta"
                  class="tarjeta">
-                    <img class="img-tarjeta" src="img/bombeo.png.png" alt="img-bombeo"><h3>BOMBEO</h3>
+                 <h2>BOMBEO</h2>
+                    <img class="img-tarjeta" src="img/bombeo.png.png" alt="Bombeo mas definicion">
                     <p> Con 'bombear' se refiere a ejercicios que hagan que la sangre inunde los músculos y produzca un aumento temporal de su tamaño. Según el Strength and Conditioning Journal, esto acelera la hipertrofia muscular a largo plazo.</p>
                     <a href="#">LEER MAS</a>
                 </div>
             </div>
         </div> 
      </section>
+     <!-- CLASES -->
      <section id="clases">
         <div class="contenedor">
             <h2>CLASES</h2>
@@ -88,164 +118,171 @@
                     <td></td>
                     <td>
                     <p class="negrita">Yoga</p>
-                    <p>anonimo111</p>
+                    <p>Maria Laura</p>
                    </td>
                    <td>
                  <p class="negrita" >Zumba</p>
-                 <p>anonimo</p>
+                 <p>Maria Laura</p>
                   </td>
                   <td>
                    <p class="negrita" >Balanceo</p>
-                   <p>anonimo</p>
+                   <p>Mario Alberto</p>
                  </td>
                  </tr>
                  <tr class="blanco">
-                    <td class="horario">10.00 - 11.00</td>
+                    <td class="horario">11.00 - 12.00</td>
                     <td>
                     <p class="negrita" >Zumba</p>
-                    <p>anonimo</p>
+                    <p>Maria Laura</p>
                      </td>
                      <td>
                     <p class="negrita" >Balanceo</p>
-                    <p>anonimo</p>
+                    <p>Mario Alberto</p>
                      </td>
                      <td></td>
                      <td></td>
                      <td>
                     <p class="negrita" >Yoga</p>
-                    <p>anonimo</p>
+                    <p>Maria Laura</p>
                      </td>
                 </tr>
                 <tr class="gris">
-                    <td class="horario" >11.00 - 12.00</td>
+                    <td class="horario" >13.00 - 14.00</td>
                     <td>
                     <p class="negrita" >Balanceo</p>
-                    <p>anonimo</p>
+                    <p>Mario Alberto</p>
                      </td>
                      <td>
                         <p class="negrita" >Zumba</p>
-                    <p>anonimo</p>
+                    <p>Maria Laura</p>
                      </td>
                      <td></td>
                      <td>
                     <p class="negrita" >Yoga</p>
-                    <p>anonimo</p>
+                    <p>Maria Laura</p>
                   </td>
                  <td></td>
                 </tr>
             </table>
         </div>
      </section>
+     <!-- MEDIA DE CLASES -->
      <section id="clase-mobile">
         <div class="contenedor">
                 <p>DIAS</p>
                 <p>LUNES</p>
                 <p class="negrita">Yoga</p>
-                <p>anonimo</p>         
+                <p>Maria Laura</p>         
                 <p class="negrita" >Zumba</p>
-                <p>anonimo</p>
+                <p>Maria Laura</p>
                 <p class="negrita" >Balanceo</p>
-                <p>anonimo</p>
+                <p>Mario Alberto</p>
                 <p>MARTES</p>
                 <p class="negrita">Yoga</p>
-                <p>anonimo</p>         
+                <p>Maria Laura</p>         
                 <p class="negrita" >Zumba</p>
-                <p>anonimo</p>
+                <p>Maria Laura</p>
                 <p class="negrita" >Balanceo</p>
-                <p>anonimo</p>
+                <p>Mario Alberto</p>
                 <p>MIERCOLES</p>
                 <p class="negrita">Yoga</p>
-                <p>anonimo</p>         
+                <p>Maria Laura</p>         
                 <p class="negrita" >Zumba</p>
-                <p>anonimo</p>
+                <p>Maria Laura</p>
                 <p class="negrita" >Balanceo</p>
-                <p>anonimo</p>
+                <p>Mario Alberto</p>
                 <p>JUEVES</p>
                 <p class="negrita">Yoga</p>
-                <p>anonimo</p>         
+                <p>Maria Laura</p>         
                 <p class="negrita" >Zumba</p>
-                <p>anonimo</p>
+                <p>Maria Laura</p>
                 <p class="negrita" >Balanceo</p>
-                <p>anonimo</p>
+                <p>Mario Alberto</p>
                 <p>VIERNES</p>
                 <p class="negrita">Yoga</p>
-                <p>anonimo</p>         
+                <p>Maria Laura</p>         
                 <p class="negrita" >Zumba</p>
-                <p>anonimo</p>
+                <p>Maria Laura</p>
                 <p class="negrita" >Balanceo</p>
-                <p>anonimo</p>
+                <p>Mario Alberto</p>
         </div>
      </section>
-
+     <!-- IMAGENES -->
      <section id="galeria">
         <div class="foto">
-            <img class="img-hover" src="img/1.png.jpg" alt="foto-1">
+            <img class="img-hover" src="img/1.png.jpg" alt="Cinta de correr">
             <div class="oculto">
                 <h4>Clase 1</h4>
             </div>
         </div>
         <div class="foto">
-            <img class="img-hover" src="img/2.png.jpg" alt="foto-2">
+            <img class="img-hover" src="img/2.png.jpg" alt="Curl de Biceps">
             <div class="oculto">
                 <h4>Clase 2</h4>
             </div>
         </div>
         <div class="foto">
-            <img class="img-hover" src="img/3.png.jpg" alt="foto-3">
+            <img class="img-hover" src="img/3.png.jpg" alt="Levantamiento al Hombro">
             <div class="oculto">
                 <h4>Clase 3</h4>
             </div>
         </div>
         <div class="foto">
-            <img class="img-hover" src="img/4.png.jpg" alt="foto-4">
+            <img class="img-hover" src="img/4.png.jpg" alt="Cardio al aire libre">
             <div class="oculto">
                 <h4>Clase 4</h4>
             </div>
         </div>
         <div class="foto">
-            <img class="img-hover" src="img/5.png.jpg" alt="foto-5">
+            <img class="img-hover" src="img/5.png.jpg" alt="Peso Muerto">
             <div class="oculto">
                 <h4>Clase 5</h4>
             </div>
         </div>
         <div class="foto">
-            <img class="img-hover" src="img/6.png.jpg" alt="foto-6">
+            <img class="img-hover" src="img/6.png.jpg" alt="Bandas Elasticas">
             <div class="oculto">
                 <h4>Clase 6</h4>
             </div>
-        </div>
-        <div class="foto">
-            <img class="img-hover" src="img/7.png.jpg" alt="foto-7">
-            <div class="oculto">
-                <h4>Clase 7</h4>
-            </div>
-        </div>
-        <div class="foto">
-            <img class="img-hover" src="img/8.png.jpg" alt="foto-8">
-            <div class="oculto">
-                <h4>Clase 8</h4>
-            </div>
-        </div>
      </section>
+     <!-- CONTACTO -->
      <section id="contact">
         <div class="contenedor">
             <h2>CONTACTO</h2>
-<div class="info">
-    <p><a href="#" target="_blank"><i class="fa-solid fa-phone">
+       <div class="info">
+       <p><a href="#" target="_blank"><i class="fa-solid fa-phone">
         (0000)-1234567
-    </i></a></p>
-    <p><a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank"><i  class="fa-solid fa-envelope" ></i>
-        GYM-ABAR@gmail.com</a>
-    </p>
-    <p><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i>
-        GYM-ABAR</a></p>
-    <p><a href="https://www.instagram.com/?__coig_restricted=1" target="_blank"><i class="fa-brands fa-instagram"></i>
-        GYM-ABAR</a></p>
-    <p><a href="https://twitter.com/?lang=es " target="_blank"><i class="fa-brands fa-twitter"></i>
-        GYM-ABAR</a></p>
-</div>
-<a href="pages/contacto.html" target="_blank">CONTACTO</a>
+      </i></a></p>
+       <p><a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe" target="_blank"><i  class="fa-solid fa-envelope" ></i>
+         GYM-ABAR@gmail.com</a>
+           </p>
+          </div>
         </div>
      </section>
-</body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <!--COMIENZA EL FOOTER-->
+       <footer class="footer">
+        <div class="footer-sm">
+          <div class="container">
+            <div class="row footer-sm__icons">
+              <div class="col">Buscanos en las redes</div>
+              <div class="col">
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/?__coig_restricted=1" target="_blank"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row footer-bottom__copyright">
+              <div class="col">
+                &copy; Copyright 2023 <a href="#">A.B.A.R</a> | Creado por Brian Arjona
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
 </html>
