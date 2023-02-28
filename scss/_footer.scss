@@ -1,0 +1,53 @@
+#contact a {
+    background: #b8de11;
+    color: #000;
+    font-style: italic;
+    padding: 1rem 10px ;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#clase-mobile {
+    display: none;
+}
+
+  /* footer */
+  .footer {
+    background-color: black;
+   
+  }
+  
+  .footer-sm {
+    background-color: #6b3aba;
+    color: white;
+   
+  }
+  
+  .footer-sm a {
+    color: white;
+  }
+  
+  .footer-sm a i {
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  
+  .footer-sm__icons {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .footer-bottom {
+    padding: 2rem 0;
+  }
+  
+  .footer-bottom__copyright {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .footer-bottom__copyright a {
+    color: white;
+    text-decoration: none;
+  }
