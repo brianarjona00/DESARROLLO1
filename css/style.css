@@ -291,7 +291,7 @@ p {
 }
 
 .footer-bottom {
-  padding: 2rem 0;
+  padding: 9rem 0;
 }
 
 .footer-bottom__copyright {
@@ -317,7 +317,6 @@ p {
     background: #000;
     width: 100%;
     position: absolute;
-    top: 45px;
     left: 0;
     display: none;
   }
