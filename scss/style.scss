@@ -3,9 +3,10 @@
 @import "card";
 @import "footer";
 
-@media (max-width: 800px) {
+@media (max-width: 800px ) {
     .menu {
-        padding-top: 30px;
+        padding-top: 80px;
+        padding-bottom: 40px;
     }
     header ul {
         flex-direction: column;
